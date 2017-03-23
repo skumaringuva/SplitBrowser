@@ -15,6 +15,7 @@
 +(NSString*) clanUrl:(NSString*)input;
 +(void) goBack:(UIWebView*)webView;
 +(void) goForward:(UIWebView*) webView;
-
-
++(NSString*) getDefaultWebPage;
++(void) setupCache;
++(void) clearCache;
 @end

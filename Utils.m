@@ -36,6 +36,22 @@
 }
 
 
++(NSString* )getDefaultWebPage{
+    
+    return @"https://google.com";
+}
+
++(void) setupCache{
+    int cacheInMemory = 2*1024*1024; // 2MB
+    int cacheOnDisk = 10*1024*1024; // 10MB
+    NSURLCache *sharedCache = [[NSURLCache alloc] initWithMemoryCapacity:cacheInMemory diskCapacity:cacheOnDisk diskPath:@"SplitBrowserUrlCache"];
+    [NSURLCache setSharedURLCache:sharedCache];
+    
+}
+
++(void) clearCache{
+    [[NSURLCache sharedURLCache] removeAllCachedResponses];
+}
 
 @end
 

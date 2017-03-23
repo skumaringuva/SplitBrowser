@@ -19,7 +19,7 @@
     
     // Do any additional setup after loading the view.
     
-    [self loadUrl:@"http://www.eenadu.net"];
+    [self loadUrl:[Utils getDefaultWebPage]];
 }
 
 
@@ -30,8 +30,8 @@
 }
 
 -(void) loadUrlWithUrl:(NSURL*) aUrl{
-
-     [self.DetailWebView loadRequest:[NSURLRequest requestWithURL:aUrl]];
+    
+    [self.DetailWebView loadRequest:[NSURLRequest requestWithURL:aUrl]];
 }
 
 - (void)didReceiveMemoryWarning {
