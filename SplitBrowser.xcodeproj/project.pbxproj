@@ -70,7 +70,7 @@
 				B3DB38C11E7112FB00E54527 /* DetailViewController.m */,
 				B3DB38BA1E7110FB00E54527 /* MasterViewController.h */,
 				B3DB38BB1E7110FB00E54527 /* MasterViewController.m */,
-				B3DB389E1E710BF500E54527 /* SplitBrowser2 */,
+				B3DB389E1E710BF500E54527 /* SplitBrowser */,
 				B3DB389D1E710BF500E54527 /* Products */,
 				B3DB38C61E71285800E54527 /* Frameworks */,
 			);
@@ -84,7 +84,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B3DB389E1E710BF500E54527 /* SplitBrowser2 */ = {
+		B3DB389E1E710BF500E54527 /* SplitBrowser */ = {
 			isa = PBXGroup;
 			children = (
 				B3DB38A21E710BF500E54527 /* AppDelegate.h */,
@@ -97,7 +97,8 @@
 				B3DB38B01E710BF500E54527 /* Info.plist */,
 				B3DB389F1E710BF500E54527 /* Supporting Files */,
 			);
-			path = SplitBrowser2;
+			name = SplitBrowser;
+			path = SplitBrowser;
 			sourceTree = "<group>";
 		};
 		B3DB389F1E710BF500E54527 /* Supporting Files */ = {
@@ -132,7 +133,7 @@
 			dependencies = (
 			);
 			name = SplitBrowser;
-			productName = SplitBrowser2;
+			productName = SplitBrowser;
 			productReference = B3DB389C1E710BF500E54527 /* SplitBrowser.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -314,9 +315,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SplitBrowser2/Info.plist;
+				INFOPLIST_FILE = SplitBrowser/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.atal.SplitBrowser2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.atal.SplitBrowser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -325,9 +326,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SplitBrowser2/Info.plist;
+				INFOPLIST_FILE = SplitBrowser/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.atal.SplitBrowser2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.atal.SplitBrowser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
