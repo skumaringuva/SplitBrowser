@@ -17,11 +17,12 @@ Author: Sheshukumar Inguva
 * [] Add video player keyword control.
 
 
-## Demo 
+## Video Walkthrough 
 
 This is demo gif:
 
 <img src='https://github.com/skumaringuva/SplitBrowser/blob/master/SplitBrowser.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 
